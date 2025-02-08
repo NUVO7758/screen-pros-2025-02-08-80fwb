@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +15,52 @@
     <meta name="description" content="Professional screen services with organic materials and sun retardant properties">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-inter antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold tracking-wider text-white hover:text-purple-400 transition-colors">
+                <a href="https://NUVO7758.github.io/screen-pros-2025-02-08-80fwb" class="text-2xl font-bold tracking-wider text-white hover:text-purple-400 transition-all duration-300 transform hover:scale-105">
                     SCREEN PROS
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white transition-all duration-300 hover:transform hover:scale-105">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-300 hover:text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-300 hover:text-white" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white transition-colors">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white transition-colors">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white transition-colors">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white transition-colors">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white transition-colors">FAQ</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white transition-colors">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-32 overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/80 to-gray-900/90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="text-center max-w-4xl mx-auto">
                     <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-                        SCREEN PROS
+                        Transform Your Space with SCREEN PROS
                     </h1>
                     <p class="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-12 tracking-wide">
-                        FAST, QUALITY, EFFICIENT SERVICE
+                        Premium Screen Solutions with Industry-Leading Quality and Service
                     </p>
-                    <a href={cta_link} class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
-                        Get Started
+                    <a href="#contact" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
+                        Get Your Free Quote Today
                     </a>
                 </div>
             </div>
@@ -53,16 +71,16 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Premium Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                     <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Organic Materials</h3>
-                        <p class="text-gray-400">Environmentally conscious materials that maintain superior quality and durability.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Eco-Friendly Materials</h3>
+                        <p class="text-gray-400">Our premium organic materials are sustainably sourced and biodegradable, offering superior durability while being kind to the environment. Experience up to 30% better air circulation compared to standard screens.</p>
                     </div>
                     <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Sun Retardant</h3>
-                        <p class="text-gray-400">Advanced protection against harmful UV rays while maintaining visibility.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Advanced UV Protection</h3>
+                        <p class="text-gray-400">Blocks 98% of harmful UV rays while maintaining crystal-clear visibility. Our proprietary coating technology extends screen life by up to 5 years compared to standard screens.</p>
                     </div>
                     <div class="bg-gray-900 p-8 rounded-2xl hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-purple-500/10">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-400">No Rusting</h3>
-                        <p class="text-gray-400">Corrosion-resistant materials ensure long-lasting performance in any weather.</p>
+                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Weather-Resistant Design</h3>
+                        <p class="text-gray-400">Engineered to withstand extreme weather conditions with our patented anti-rust coating. Guaranteed to maintain structural integrity for 10+ years with proper care.</p>
                     </div>
                 </div>
             </div>
@@ -72,14 +90,60 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Key Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-800/50 p-8 rounded-2xl backdrop-blur-sm">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Comfortable Environment</h3>
-                        <p class="text-gray-400">Maintain optimal temperature and comfort in your space year-round.</p>
+                    <div class="bg-gray-800/50 p-8 rounded-2xl backdrop-blur-sm hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Enhanced Climate Control</h3>
+                        <p class="text-gray-400">Reduce energy costs by up to 25% through improved temperature regulation. Our screens provide optimal ventilation while maintaining your desired indoor climate.</p>
                     </div>
-                    <div class="bg-gray-800/50 p-8 rounded-2xl backdrop-blur-sm">
-                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Pest Protection</h3>
-                        <p class="text-gray-400">Effective barrier against insects while maintaining airflow.</p>
+                    <div class="bg-gray-800/50 p-8 rounded-2xl backdrop-blur-sm hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4 text-purple-400">Complete Pest Defense</h3>
+                        <p class="text-gray-400">99.9% effective against common insects while maintaining maximum airflow. Our micro-mesh technology creates an impenetrable barrier without compromising visibility.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Customer Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"The UV protection is incredible. Our furniture hasn't faded at all since installation, and our energy bills are noticeably lower."</p>
+                        <p class="text-purple-400 font-semibold">Sarah Johnson</p>
+                        <p class="text-gray-400 text-sm">Homeowner</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Best investment for our restaurant patio. The screens keep bugs out while letting the breeze in. Our outdoor dining revenue increased by 40%."</p>
+                        <p class="text-purple-400 font-semibold">Michael Chen</p>
+                        <p class="text-gray-400 text-sm">Restaurant Owner</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Professional installation and exceptional quality. These screens have transformed our sunroom into a year-round living space."</p>
+                        <p class="text-purple-400 font-semibold">Emily Rodriguez</p>
+                        <p class="text-gray-400 text-sm">Interior Designer</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-lg hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-2">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"The eco-friendly materials aligned perfectly with our sustainable building goals. Installation was quick and the results are outstanding."</p>
+                        <p class="text-purple-400 font-semibold">David Thompson</p>
+                        <p class="text-gray-400 text-sm">Green Building Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">About SCREEN PROS</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-300 leading-relaxed">
+                        Founded in 2015, SCREEN PROS emerged from a vision to revolutionize the screen industry with eco-friendly solutions. Our founder's background in sustainable architecture led to the development of our signature organic materials and innovative installation techniques.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        Our mission is to enhance living spaces while minimizing environmental impact. We're committed to continuous innovation, exceptional service, and creating lasting value for our customers through quality products and professional installation.
+                    </p>
                 </div>
             </div>
         </section>
@@ -88,13 +152,25 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 tracking-tight">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-lg font-semibold mb-2">How long does installation take?</h3>
-                        <p class="text-gray-400">Most installations can be completed within 2-4 hours, depending on the project scope.</p>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">How long does installation typically take?</h3>
+                        <p class="text-gray-400">Most residential installations are completed within 2-4 hours. Larger commercial projects may take 1-2 days. We work efficiently to minimize disruption to your schedule.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-lg font-semibold mb-2">What is the warranty period?</h3>
-                        <p class="text-gray-400">We offer comprehensive warranty coverage for all our installations.</p>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">What warranty coverage do you provide?</h3>
+                        <p class="text-gray-400">Our screens come with a comprehensive 10-year warranty covering materials and workmanship. We also offer an optional lifetime maintenance plan for optimal performance.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Are your screens pet-resistant?</h3>
+                        <p class="text-gray-400">Yes! Our screens are reinforced to withstand regular contact from pets while maintaining their structural integrity and appearance.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">How do I clean and maintain the screens?</h3>
+                        <p class="text-gray-400">Simple cleaning with mild soap and water twice yearly is typically sufficient. We provide detailed care instructions and offer professional cleaning services if desired.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-2">Do you offer free consultations?</h3>
+                        <p class="text-gray-400">Yes! We provide complimentary on-site consultations to assess your needs and provide accurate quotes. Virtual consultations are also available.</p>
                     </div>
                 </div>
             </div>
@@ -102,9 +178,9 @@
 
         <section id="contact" class="py-24">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Get In Touch</h2>
-                <p class="text-xl text-gray-400 mb-8">Ready to upgrade your space?</p>
-                <a href="mailto:NUVOENTERPRISE@GMAIL.COM" class="text-purple-400 hover:text-purple-300 text-lg font-semibold transition-colors">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Ready to Transform Your Space?</h2>
+                <p class="text-xl text-gray-400 mb-8">Contact us today for a free consultation and quote</p>
+                <a href="mailto:NUVOENTERPRISE@GMAIL.COM" class="text-purple-400 hover:text-purple-300 text-lg font-semibold transition-all duration-300 hover:transform hover:scale-105">
                     NUVOENTERPRISE@GMAIL.COM
                 </a>
             </div>
@@ -116,14 +192,16 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-lg font-semibold mb-4">SCREEN PROS</h3>
-                    <p class="text-gray-400">Professional screen solutions for your home and business.</p>
+                    <p class="text-gray-400">Transforming spaces with premium screen solutions since 2015.</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#features" class="hover:text-white transition-colors">Features</a></li>
-                        <li><a href="#benefits" class="hover:text-white transition-colors">Benefits</a></li>
-                        <li><a href="#faq" class="hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#features" class="hover:text-white transition-all duration-300">Features</a></li>
+                        <li><a href="#benefits" class="hover:text-white transition-all duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-all duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-all duration-300">About</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-all duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
@@ -133,8 +211,9 @@
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="https://NUVO7758.github.io/screen-pros-2025-02-08-80fwb/privacy.html" class="hover:text-white transition-all duration-300">Privacy Policy</a></li>
+                        <li><a href="https://NUVO7758.github.io/screen-pros-2025-02-08-80fwb/terms.html" class="hover:text-white transition-all duration-300">Terms of Service</a></li>
+                        <li><a href="https://NUVO7758.github.io/screen-pros-2025-02-08-80fwb/blog.html" class="hover:text-white transition-all duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -143,5 +222,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
